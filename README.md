@@ -57,15 +57,6 @@ A modern, real-time IoT sensor data dashboard with WebSocket support, live weath
 - `historicalData` - Historical data responses
 - `requestHistoricalData` - Client requests for specific time ranges
 
-## 🔧 Configuration
-
-### Environment Variables
-Create a `.env` file in the root directory:
-```env
-PORT=3000
-NODE_ENV=development
-```
-
 ### API Configuration
 The frontend automatically connects to the Azure production API:
 - **Production API**: `https://sensor-api-c5arcwcxc7dsa7ce.polandcentral-01.azurewebsites.net`
@@ -139,28 +130,3 @@ CREATE TABLE readings (
 - **URL**: https://sensor-api-c5arcwcxc7dsa7ce.polandcentral-01.azurewebsites.net
 - **Region**: Poland Central
 - **Database**: Azure SQL Database
-- **WebSocket**: Enabled for real-time communication
-
-## 📈 Performance Features
-
-- **Efficient Polling**: Falls back to polling when WebSocket unavailable
-- **Smart Caching**: No localStorage dependency, always fresh data
-- **Optimized Charts**: Smooth animations and responsive updates
-- **Minimal Network**: Only fetches necessary data
-
-## 🔒 Security
-
-- **CORS Enabled**: Cross-origin requests supported
-- **Input Validation**: All sensor data validated before storage
-- **Error Handling**: Comprehensive error handling and logging
-- **Production Ready**: Secure Azure deployment
-
-## 📝 Recent Updates
-
-- **2×2 Historical Charts**: Separate charts for Temp/Humidity/AQ/Lux
-- **Time-scale Axes**: Integrated Chart.js time adapter (Moment) for correct time rendering
-- **UI Refresh**: Glassy cards, improved spacing, dropdown avatar in header
-- **Range Toggles**: Clean active/hover styling for 24h/7d/30d
-- **Weather Widget**: Adds rain value, smoother updates
-
-**Environmental Intelligence Hub** - Real-time IoT monitoring with modern web technologies. 
