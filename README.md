@@ -29,16 +29,6 @@ A modern, real-time IoT sensor data dashboard with WebSocket support, live weath
 - **Responsive Design**: Works on desktop, tablet, and mobile
 - **Real-time Metrics**: Live updating temperature, humidity, air quality, and luminosity cards
 
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js (v22 or higher)
-- Modern web browser with WebSocket support
-
-### Access the Dashboard
-- **Local Development**: http://localhost:3000
-- **Production**: https://sensor-api-c5arcwcxc7dsa7ce.polandcentral-01.azurewebsites.net
-
 ## 📊 API Endpoints
 
 ### Sensor Data
